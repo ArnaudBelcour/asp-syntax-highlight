@@ -1,0 +1,26 @@
+{
+    "name": "asp-syntax-highlight",
+    "displayName": "Answer Set Programming syntax highlighter",
+    "description": "Syntax highlighting for Answer Set Programming",
+    "version": "0.0.1",
+    "publisher": "Arnaud Belcour",
+    "engines": {
+        "vscode": "^1.18.0"
+    },
+    "categories": [
+        "Languages"
+    ],
+    "contributes": {
+        "languages": [{
+            "id": "asp",
+            "aliases": ["Answer Set Programming", "asp"],
+            "extensions": [".lp",".cl"],
+            "configuration": "./language-configuration.json"
+        }],
+        "grammars": [{
+            "language": "asp",
+            "scopeName": "source.asp",
+            "path": "./syntaxes/asp.tmLanguage.json"
+        }]
+    }
+}

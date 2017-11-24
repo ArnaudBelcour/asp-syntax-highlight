@@ -1,0 +1,69 @@
+{
+	"name": "asp",
+	"scopeName": "source.asp",
+	"patterns": [
+		{
+			"include": "#keywords"
+		}
+	],
+	"repository": {
+		"keywords": {
+			"patterns":[
+			{
+				"name": "comment.asp",
+				"begin": "%\\*",
+				"end": "\\*%"
+				},
+			{
+				"name": "comment.asp",
+				"match": "%.*"
+			},
+			{
+				"name": "constant.asp",
+				"match": "\\bnot\\b"
+			},
+			{
+				"match": ":-",
+				"name": "keyword.operator.definition.asp"
+			},
+			{
+				"match": ",",
+				"name": "punctuation.separator.and.asp"
+			},
+			{
+				"match": ";",
+				"name": "punctuation.separator.or.asp"
+			},
+			{
+				"match": "!",
+				"name": "support.constant.cut.asp"
+			},
+			{
+				"name": "keyword.asp",
+				"match": "(count|max|min|sum)\\b"
+			},
+			{
+				"comment": "Gringo functions",
+				"match": "(maximize|minimize|show|showsig|sup|inf|true|false|forget|external|cumulative|disjoint|const|base|include|program)\\b",
+				"name": "support.function.asp"
+			},
+			{
+				"match": "[a-z][A-Za-z0-9_]*",
+				"name": "entity.name.tag.asp"
+			  },
+			  {
+				"match": "[A-Z][A-Za-z0-9_]*",
+				"name": "variable.asp"
+			  },
+			  {
+				"begin": "\"",
+				"end": "\"",
+				"name": "string.asp"
+			  },
+			  {
+				"match": "0|[1-9][0-9]*",
+				"name": "constant.numeric.asp"
+			}]
+		}
+	}
+}
