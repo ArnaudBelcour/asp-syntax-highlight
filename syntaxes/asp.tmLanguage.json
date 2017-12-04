@@ -19,7 +19,7 @@
 				"match": "%.*"
 			},
 			{
-				"name": "constant.asp",
+				"name": "constant.language.asp",
 				"match": "\\bnot\\b"
 			},
 			{
