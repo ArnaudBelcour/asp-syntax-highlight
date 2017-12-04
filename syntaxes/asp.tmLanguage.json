@@ -23,46 +23,46 @@
 				"match": "\\bnot\\b"
 			},
 			{
-				"match": ":-",
-				"name": "keyword.operator.definition.asp"
+				"name": "keyword.operator.definition.asp",
+				"match": ":-"
 			},
 			{
-				"match": ",",
-				"name": "punctuation.separator.and.asp"
+				"name": "punctuation.separator.and.asp",
+				"match": ","
 			},
 			{
-				"match": ";",
-				"name": "punctuation.separator.or.asp"
+				"name": "punctuation.separator.or.asp",
+				"match": ";"
 			},
 			{
-				"match": "!",
-				"name": "support.constant.cut.asp"
+				"name": "support.constant.cut.asp",
+				"match": "!"
 			},
 			{
 				"name": "keyword.asp",
 				"match": "(count|max|min|sum)\\b"
 			},
 			{
+				"name": "support.function.asp",
 				"comment": "Gringo functions",
-				"match": "(maximize|minimize|show|showsig|sup|inf|true|false|forget|external|cumulative|disjoint|const|base|include|program)\\b",
-				"name": "support.function.asp"
+				"match": "#(maximize|minimize|show|hide|showsig|sup|inf|true|false|forget|external|cumulative|disjoint|const|base|include|program)\\b"
 			},
 			{
-				"match": "[a-z][A-Za-z0-9_]*",
-				"name": "entity.name.tag.asp"
+				"name": "entity.name.tag.asp",
+				"match": "[a-z][A-Za-z0-9_]*"
 			  },
 			  {
-				"match": "[A-Z][A-Za-z0-9_]*",
-				"name": "variable.asp"
+				"name": "variable.asp",
+				"match": "\\b[A-Z][A-Za-z0-9_]*"
 			  },
 			  {
+				"name": "string.asp",
 				"begin": "\"",
-				"end": "\"",
-				"name": "string.asp"
+				"end": "\""
 			  },
 			  {
-				"match": "0|[1-9][0-9]*",
-				"name": "constant.numeric.asp"
+				"name": "constant.numeric.asp",
+				"match": "0|[1-9][0-9]*"
 			}]
 		}
 	}
