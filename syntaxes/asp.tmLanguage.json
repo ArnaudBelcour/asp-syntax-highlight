@@ -23,7 +23,7 @@
 				"match": "\\bnot\\b"
 			},
 			{
-				"name": "keyword.operator.definition.asp",
+				"name": "punctuation.section.embedded.asp",
 				"match": ":-"
 			},
 			{
@@ -36,16 +36,36 @@
 			},
 			{
 				"name": "support.constant.cut.asp",
-				"match": "!"
+				"match": "!="
 			},
 			{
 				"name": "keyword.asp",
-				"match": "(count|max|min|sum)\\b"
+				"match": "#(count|max|min|sum)\\b"
 			},
 			{
 				"name": "support.function.asp",
 				"comment": "Gringo functions",
 				"match": "#(maximize|minimize|show|hide|showsig|sup|inf|true|false|forget|external|cumulative|disjoint|const|base|include|program)\\b"
+			},
+			{
+				"comment": "Gringo script",
+				"begin": "#script\\s*\\(\\s*python\\s*\\)",
+				"beginCaptures": {
+				  "0": {
+					"name": "support.function.asp"
+				  }
+				},
+				"end": "#end",
+				"endCaptures": {
+				  "0": {
+					"name": "support.function.asp"
+						}
+				},
+				"patterns":[
+				  {
+						"include": "source.python"
+				  }
+				]
 			},
 			{
 				"name": "entity.name.tag.asp",
