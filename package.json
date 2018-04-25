@@ -20,7 +20,7 @@
         "grammars": [{
             "language": "asp",
             "scopeName": "source.asp",
-            "path": "./syntaxes/asp.tmLanguage.json"
+            "path": "./syntaxes/asp.tmLanguage"
         }]
     }
 }
