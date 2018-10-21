@@ -3,7 +3,7 @@
     "displayName": "Answer Set Programming syntax highlighter",
     "description": "Syntax highlighting for Answer Set Programming",
     "version": "0.0.1",
-    "publisher": "Arnaud Belcour",
+    "publisher": "abelcour",
     "engines": {
         "vscode": "^1.18.0"
     },
