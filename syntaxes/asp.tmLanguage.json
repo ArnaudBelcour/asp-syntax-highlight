@@ -49,8 +49,8 @@
 			},
 			{
 				"name": "support.function.asp",
-				"comment": "Gringo functions",
-				"match": "#(maximize|minimize|show|hide|showsig|sup|inf|true|false|forget|external|cumulative|disjoint|const|base|include|program)\\b"
+				"comment": "Gringo and asprin functions",
+				"match": "#(maximize|minimize|show|hide|showsig|sup|inf|true|false|forget|external|cumulative|disjoint|const|base|include|program|preference|optimize)\\b"
 			},
 			{
 				"comment": "Gringo script",

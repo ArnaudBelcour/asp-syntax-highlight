@@ -81,9 +81,9 @@
             <key>name</key>
             <string>support.function.asp</string>
             <key>comment</key>
-            <string>Gringo functions</string>
+            <string>Gringo and asprin functions</string>
             <key>match</key>
-            <string>#(maximize|minimize|show|hide|showsig|sup|inf|true|false|forget|external|cumulative|disjoint|const|base|include|program)\b</string>
+            <string>#(maximize|minimize|show|hide|showsig|sup|inf|true|false|forget|external|cumulative|disjoint|const|base|include|program|preference|optimize)\b</string>
           </dict>
           <dict>
             <key>comment</key>
