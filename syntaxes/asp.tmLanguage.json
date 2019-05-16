@@ -36,11 +36,21 @@
 			},
 			{
 				"name": "support.constant.cut.asp",
-				"match": "!="
+				"match": "!=|"
+			},
+			{
+				"comment": "preference element",
+				"name": "support.constant.cut.asp",
+				"match": ">>"
 			},
 			{
 				"name": "keyword.asp",
 				"match": "#(count|max|min|sum)\\b"
+			},
+			{
+				"name": "keyword.control.flow.asp",
+				"comment": "asprin types and statements",
+				"match": "less\\s*\\(\\s*cardinality\\s*\\)|more\\s*\\(\\s*cardinality\\s*\\)|less\\s*\\(\\s*weight\\s*\\)|more\\s*\\(\\s*weight\\s*\\)|subset|superset|minmax|maxmin|aso|poset|cp|#(preference|optimize)"
 			},
 			{
 				"name": "support.function.asp",
@@ -49,8 +59,8 @@
 			},
 			{
 				"name": "support.function.asp",
-				"comment": "Gringo and asprin functions",
-				"match": "#(maximize|minimize|show|hide|showsig|sup|inf|true|false|forget|external|cumulative|disjoint|const|base|include|program|preference|optimize)\\b"
+				"comment": "Gringo functions",
+				"match": "#(maximize|minimize|show|hide|showsig|sup|inf|true|false|forget|external|cumulative|disjoint|const|base|include|program)\\b"
 			},
 			{
 				"comment": "Gringo script",

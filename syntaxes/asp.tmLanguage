@@ -65,9 +65,23 @@
           </dict>
           <dict>
             <key>name</key>
+            <string>support.constant.cut.asp</string>
+            <key>match</key>
+            <string>>></string>
+          </dict>
+          <dict>
+            <key>name</key>
             <string>keyword.asp</string>
             <key>match</key>
             <string>#(count|max|min|sum)\b</string>
+          </dict>
+          <dict>
+            <key>name</key>
+            <string>keyword.control.flow.asp</string>
+            <key>comment</key>
+            <string>asprin types and statements</string>
+            <key>match</key>
+            <string>less\s*\(\s*cardinality\s*\)|more\s*\(\s*cardinality\s*\)|less\s*\(\s*weight\s*\)|more\s*\(\s*weight\s*\)|subset|superset|minmax|maxmin|aso|poset|cp|#(preference|optimize)</string>
           </dict>
           <dict>
             <key>name</key>
@@ -81,9 +95,9 @@
             <key>name</key>
             <string>support.function.asp</string>
             <key>comment</key>
-            <string>Gringo and asprin functions</string>
+            <string>Gringo functions</string>
             <key>match</key>
-            <string>#(maximize|minimize|show|hide|showsig|sup|inf|true|false|forget|external|cumulative|disjoint|const|base|include|program|preference|optimize)\b</string>
+            <string>#(maximize|minimize|show|hide|showsig|sup|inf|true|false|forget|external|cumulative|disjoint|const|base|include|program)\b</string>
           </dict>
           <dict>
             <key>comment</key>
