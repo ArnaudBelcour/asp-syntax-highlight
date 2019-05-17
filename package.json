@@ -1,26 +1,51 @@
 {
-    "name": "asp-syntax-highlight",
-    "displayName": "Answer Set Programming syntax highlighter",
-    "description": "Syntax highlighting for Answer Set Programming",
-    "version": "0.0.2",
-    "publisher": "abelcour",
-    "engines": {
-        "vscode": "^1.18.0"
-    },
-    "categories": [
-        "Languages"
-    ],
-    "contributes": {
-        "languages": [{
-            "id": "asp",
-            "aliases": ["Answer Set Programming", "asp"],
-            "extensions": [".lp",".cl"],
-            "configuration": "./language-configuration.json"
-        }],
-        "grammars": [{
-            "language": "asp",
-            "scopeName": "source.asp",
-            "path": "./syntaxes/asp.tmLanguage"
-        }]
-    }
+	"name": "asp-syntax-highlight",
+	"displayName": "Answer Set Programming syntax highlighter",
+	"description": "Syntax highlighting for Answer Set Programming",
+	"version": "0.0.2",
+	"publisher": "abelcour",
+	"engines": {
+		"vscode": "^1.18.0"
+	},
+	"homepage": "https://github.com/ArnaudBelcour/asp-syntax-highlight",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/ArnaudBelcour/asp-syntax-highlight"
+	},
+	"icon": "images/icon.png",
+	"galleryBanner": {
+		"color": "#C80000",
+		"theme": "dark"
+	  },
+	"categories": [
+		"Languages"
+	],
+	"contributes": {
+		"languages": [
+			{
+				"id": "asp",
+				"aliases": [
+					"Answer Set Programming",
+					"asp"
+				],
+				"extensions": [
+					".lp",
+					".cl"
+				],
+				"configuration": "./language-configuration.json"
+			}
+		],
+		"grammars": [
+			{
+				"language": "asp",
+				"scopeName": "source.asp",
+				"path": "./syntaxes/asp.tmLanguage"
+			}
+		]
+	},
+	"__metadata": {
+		"id": "e0c89965-ea7d-400a-ad41-2c00751045d3",
+		"publisherDisplayName": "abelcour",
+		"publisherId": "bea0f566-1a88-46cf-bc2d-3f45f0dfaeb6"
+	}
 }
