@@ -6,14 +6,12 @@ This extension was created with [yo code](https://code.visualstudio.com/docs/ext
 
 ## Features
 
-Syntax highlighting for Answer Set Programming (variable, Gringo functions).
+Syntax highlighting for Answer Set Programming (variables, Clingo functions, asprin statements and types).
 
 ## Requirements
 
 No requirements.
 
-## Release Notes
+## Issues/Suggestions
 
-### 0.0.1
-
-Initial release.
+You can post your issues/suggestions on the [GitHub page](https://github.com/ArnaudBelcour/asp-syntax-highlight).
