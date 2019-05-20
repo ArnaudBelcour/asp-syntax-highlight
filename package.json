@@ -13,10 +13,6 @@
 		"url": "https://github.com/ArnaudBelcour/asp-syntax-highlight"
 	},
 	"icon": "images/icon.png",
-	"galleryBanner": {
-		"color": "#C80000",
-		"theme": "dark"
-	  },
 	"categories": [
 		"Languages"
 	],
