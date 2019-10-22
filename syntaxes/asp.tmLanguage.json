@@ -63,7 +63,7 @@
 				"match": "#(maximize|minimize|show|hide|showsig|sup|inf|true|false|forget|external|cumulative|disjoint|const|base|include|program)\\b"
 			},
 			{
-				"comment": "Gringo script",
+				"comment": "Gringo script python",
 				"begin": "#script\\s*\\(\\s*python\\s*\\)",
 				"beginCaptures": {
 				  "0": {
@@ -79,6 +79,26 @@
 				"patterns":[
 				  {
 						"include": "source.python"
+				  }
+				]
+			},
+			{
+				"comment": "Gringo script lua",
+				"begin": "#script\\s*\\(\\s*lua\\s*\\)",
+				"beginCaptures": {
+				  "0": {
+					"name": "support.function.asp"
+				  }
+				},
+				"end": "#end",
+				"endCaptures": {
+				  "0": {
+					"name": "support.function.asp"
+						}
+				},
+				"patterns":[
+				  {
+						"include": "source.lua"
 				  }
 				]
 			},
