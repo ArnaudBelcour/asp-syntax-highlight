@@ -113,7 +113,7 @@
               </dict>
             </dict>
             <key>end</key>
-            <string>#end</string>
+            <string>#end.</string>
             <key>endCaptures</key>
             <dict>
               <key>0</key>
@@ -144,7 +144,7 @@
               </dict>
             </dict>
             <key>end</key>
-            <string>#end</string>
+            <string>#end.</string>
             <key>endCaptures</key>
             <dict>
               <key>0</key>
