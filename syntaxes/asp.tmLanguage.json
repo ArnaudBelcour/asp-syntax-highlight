@@ -45,12 +45,12 @@
 			},
 			{
 				"name": "keyword.asp",
-				"match": "#(count|max|min|sum)\\b"
+				"match": "#(count|max|min|sum|div|mod|pow|abs)\\b"
 			},
 			{
 				"name": "keyword.control.flow.asp",
 				"comment": "asprin types and statements",
-				"match": "less\\s*\\(\\s*cardinality\\s*\\)|more\\s*\\(\\s*cardinality\\s*\\)|less\\s*\\(\\s*weight\\s*\\)|more\\s*\\(\\s*weight\\s*\\)|subset|superset|minmax|maxmin|aso|poset|cp|#(preference|optimize)"
+				"match": "less\\s*\\(\\s*cardinality\\s*\\)|more\\s*\\(\\s*cardinality\\s*\\)|less\\s*\\(\\s*weight\\s*\\)|more\\s*\\(\\s*weight\\s*\\)|preference|pareto|subset|superset|minmax|maxmin|aso|poset|cp|#(preference|optimize)"
 			},
 			{
 				"name": "support.function.asp",
@@ -60,7 +60,17 @@
 			{
 				"name": "support.function.asp",
 				"comment": "Gringo functions",
-				"match": "#(maximize|minimize|show|hide|showsig|sup|inf|true|false|forget|external|cumulative|disjoint|const|base|include|program)\\b"
+				"match": "#(maximize|minimize|show|hide|showsig|sup|inf|true|false|forget|external|cumulative|disjoint|const|base)\\b"
+			},
+			{
+				"name": "support.function.asp",
+				"comment": "Include",
+				"match": "#include\\s([<]incmode[>][.])?"
+			},
+			{
+				"name": "support.function.asp",
+				"comment": "Program",
+				"match": "#program\\s((base|step\\(\\w\\)*|check\\(\\s*\\w\\s*\\)*)[.])?"
 			},
 			{
 				"comment": "Gringo script python",

@@ -81,7 +81,7 @@
             <key>comment</key>
             <string>asprin types and statements</string>
             <key>match</key>
-            <string>less\s*\(\s*cardinality\s*\)|more\s*\(\s*cardinality\s*\)|less\s*\(\s*weight\s*\)|more\s*\(\s*weight\s*\)|subset|superset|minmax|maxmin|aso|poset|cp|#(preference|optimize)</string>
+            <string>less\s*\(\s*cardinality\s*\)|more\s*\(\s*cardinality\s*\)|less\s*\(\s*weight\s*\)|more\s*\(\s*weight\s*\)|preference|pareto|subset|superset|minmax|maxmin|aso|poset|cp|#(preference|optimize)</string>
           </dict>
           <dict>
             <key>name</key>
@@ -97,7 +97,23 @@
             <key>comment</key>
             <string>Gringo functions</string>
             <key>match</key>
-            <string>#(maximize|minimize|show|hide|showsig|sup|inf|true|false|forget|external|cumulative|disjoint|const|base|include|program)\b</string>
+            <string>#(maximize|minimize|show|hide|heuristic|showsig|sup|inf|true|false|forget|external|cumulative|disjoint|const|base)\b</string>
+          </dict>
+          <dict>
+            <key>name</key>
+            <string>support.function.asp</string>
+            <key>comment</key>
+            <string>Include</string>
+            <key>match</key>
+            <string>#include\s([<]incmode[>][.])?</string>
+          </dict>
+          <dict>
+            <key>name</key>
+            <string>support.function.asp</string>
+            <key>comment</key>
+            <string>Program</string>
+            <key>match</key>
+            <string>#program\s((base|step\(\w\)*|check\(\s*\w\s*\)*)[.])?</string>
           </dict>
           <dict>
             <key>comment</key>
@@ -113,7 +129,7 @@
               </dict>
             </dict>
             <key>end</key>
-            <string>#end.</string>
+            <string>#end[.]</string>
             <key>endCaptures</key>
             <dict>
               <key>0</key>
@@ -144,7 +160,7 @@
               </dict>
             </dict>
             <key>end</key>
-            <string>#end.</string>
+            <string>#end[.]</string>
             <key>endCaptures</key>
             <dict>
               <key>0</key>
