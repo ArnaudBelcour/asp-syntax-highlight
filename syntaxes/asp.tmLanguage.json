@@ -45,7 +45,7 @@
 			},
 			{
 				"name": "keyword.asp",
-				"match": "#(count|max|min|sum|div|mod|pow|abs)\\b"
+				"match": "#(count|max|min|sum)\\b"
 			},
 			{
 				"name": "keyword.control.flow.asp",
