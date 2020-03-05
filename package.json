@@ -33,7 +33,7 @@
 					".Clp",
 					".iClp",
 					".blp",
-					"iblp"
+					".iblp"
 
 				],
 				"configuration": "./language-configuration.json"
