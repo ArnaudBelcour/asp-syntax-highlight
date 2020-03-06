@@ -26,7 +26,15 @@
 				],
 				"extensions": [
 					".lp",
-					".cl"
+					".ilp",
+					".cl",
+					".clp",
+					".iclp",
+					".Clp",
+					".iClp",
+					".blp",
+					".iblp"
+
 				],
 				"configuration": "./language-configuration.json"
 			}
