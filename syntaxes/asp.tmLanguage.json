@@ -49,8 +49,13 @@
 			},
 			{
 				"name": "keyword.control.flow.asp",
+				"comment": "asprilo types and statements",
+				"match": "(node|highway|robot|shelf|pickleStation|product|order|carries)\\b"
+			},
+			{
+				"name": "keyword.control.flow.asp",
 				"comment": "asprin types and statements",
-				"match": "less\\s*\\(\\s*cardinality\\s*\\)|more\\s*\\(\\s*cardinality\\s*\\)|less\\s*\\(\\s*weight\\s*\\)|more\\s*\\(\\s*weight\\s*\\)|preference|pareto|subset|superset|minmax|maxmin|aso|poset|cp|#(preference|optimize)"
+				"match": "(less\\s*\\(\\s*cardinality\\s*\\)|more\\s*\\(\\s*cardinality\\s*\\)|less\\s*\\(\\s*weight\\s*\\)|more\\s*\\(\\s*weight\\s*\\)|preference|pareto|subset|superset|minmax|maxmin|aso|poset|cp|#(preference|optimize))\\b"
 			},
 			{
 				"name": "support.function.asp",

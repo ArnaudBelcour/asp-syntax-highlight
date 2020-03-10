@@ -79,9 +79,17 @@
             <key>name</key>
             <string>keyword.control.flow.asp</string>
             <key>comment</key>
+            <string>asprilo types and statements</string>
+            <key>match</key>
+            <string>(node|highway|robot|shelf|pickleStation|product|order|carries)\b</string>
+          </dict>
+          <dict>
+            <key>name</key>
+            <string>keyword.control.flow.asp</string>
+            <key>comment</key>
             <string>asprin types and statements</string>
             <key>match</key>
-            <string>less\s*\(\s*cardinality\s*\)|more\s*\(\s*cardinality\s*\)|less\s*\(\s*weight\s*\)|more\s*\(\s*weight\s*\)|preference|pareto|subset|superset|minmax|maxmin|aso|poset|cp|#(preference|optimize)</string>
+            <string>(less\s*\(\s*cardinality\s*\)|more\s*\(\s*cardinality\s*\)|less\s*\(\s*weight\s*\)|more\s*\(\s*weight\s*\)|preference|pareto|subset|superset|minmax|maxmin|aso|poset|cp|#(preference|optimize))\b</string>
           </dict>
           <dict>
             <key>name</key>
@@ -105,7 +113,7 @@
             <key>comment</key>
             <string>Include</string>
             <key>match</key>
-            <string>#include\s([<]incmode[>][.])?</string>
+            <string>#include\s([<](incmode|csp)[>][.])?</string>
           </dict>
           <dict>
             <key>name</key>

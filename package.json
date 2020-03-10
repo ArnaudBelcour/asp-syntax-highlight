@@ -2,7 +2,7 @@
 	"name": "asp-syntax-highlight",
 	"displayName": "Answer Set Programming syntax highlighter",
 	"description": "Syntax highlighting for Answer Set Programming",
-	"version": "0.0.4",
+	"version": "0.0.5",
 	"publisher": "abelcour",
 	"engines": {
 		"vscode": "^1.18.0"
@@ -46,10 +46,5 @@
 				"path": "./syntaxes/asp.tmLanguage"
 			}
 		]
-	},
-	"__metadata": {
-		"id": "e0c89965-ea7d-400a-ad41-2c00751045d3",
-		"publisherDisplayName": "abelcour",
-		"publisherId": "bea0f566-1a88-46cf-bc2d-3f45f0dfaeb6"
 	}
 }
