@@ -64,6 +64,11 @@
 			},
 			{
 				"name": "support.function.asp",
+				"comment": "Clingcon features",
+				"match": "&(sum|dom|distinct|minimize)\b"
+			},
+			{
+				"name": "support.function.asp",
 				"comment": "Gringo functions",
 				"match": "#(maximize|minimize|show|hide|showsig|sup|inf|true|false|forget|external|cumulative|disjoint|const|base)\\b"
 			},
