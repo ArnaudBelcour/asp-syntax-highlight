@@ -6,7 +6,7 @@ This extension was created with [yo code](https://code.visualstudio.com/docs/ext
 
 ## Features
 
-Syntax highlighting for Answer Set Programming (variables, Clingo functions, asprin statements and types).
+Syntax highlighting for Answer Set Programming (variables, Clingo functions, asprin, asprilo, clingcon and clingoLP statements and types).
 
 ## Requirements
 

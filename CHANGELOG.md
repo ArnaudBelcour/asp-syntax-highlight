@@ -1,3 +1,8 @@
+## Version 0.0.5: 11 March 2020
+- Add support for clingcon and clingoLP features.
+- Add support for asprilo.
+- Fix issue with asprin features.
+
 ## Version 0.0.4: 08 November 2019
 - Add #heuristic, preference and pareto (for asprin).
 - Fix #program and #include highlight.

@@ -81,7 +81,7 @@
             <key>comment</key>
             <string>asprilo types and statements</string>
             <key>match</key>
-            <string>(object|value|node|highway|robot|shelf|pickingStation|product|order|carries|occurs|pickup|putdown|move|deliver|action)\b</string>
+            <string>(object|value|node|highway|robot|shelf|pickingStation|product|order|carries|occurs|pickup|putdown|move|deliver|action|grid)\b</string>
           </dict>
           <dict>
             <key>name</key>
