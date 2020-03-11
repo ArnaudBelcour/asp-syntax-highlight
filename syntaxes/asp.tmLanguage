@@ -81,7 +81,7 @@
             <key>comment</key>
             <string>asprilo types and statements</string>
             <key>match</key>
-            <string>(node|highway|robot|shelf|pickleStation|product|order|carries)\b</string>
+            <string>(object|value|node|highway|robot|shelf|pickingStation|product|order|carries|occurs|pickup|putdown|move|deliver|action)\b</string>
           </dict>
           <dict>
             <key>name</key>
@@ -103,9 +103,9 @@
             <key>name</key>
             <string>support.function.asp</string>
             <key>comment</key>
-            <string>Clingcon features</string>
+            <string>Clingcon and clingoLP features</string>
             <key>match</key>
-            <string>&(sum|dom|distinct|minimize)\b</string>
+            <string>&(sum|dom|distinct|minimize|maximize)\b</string>
           </dict>
           <dict>
             <key>name</key>
@@ -122,6 +122,14 @@
             <string>Include</string>
             <key>match</key>
             <string>#include\s([<](incmode|csp)[>][.])?</string>
+          </dict>
+          <dict>
+            <key>name</key>
+            <string>support.function.asp</string>
+            <key>comment</key>
+            <string>init</string>
+            <key>match</key>
+            <string>init\b</string>
           </dict>
           <dict>
             <key>name</key>
