@@ -105,7 +105,7 @@
             <key>comment</key>
             <string>Clingcon and clingoLP features</string>
             <key>match</key>
-            <string>&(sum|dom|distinct|minimize|maximize)\b</string>
+            <string>&amp;(sum|dom|distinct|minimize|maximize)\b</string>
           </dict>
           <dict>
             <key>name</key>
@@ -121,7 +121,7 @@
             <key>comment</key>
             <string>Include</string>
             <key>match</key>
-            <string>#include\s([<](incmode|csp)[>][.])?</string>
+            <string>#include\s([&lt;](incmode|csp)[&gt;][.])?</string>
           </dict>
           <dict>
             <key>name</key>
