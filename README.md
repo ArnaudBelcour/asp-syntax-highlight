@@ -15,3 +15,9 @@ No requirements.
 ## Issues/Suggestions
 
 You can post your issues/suggestions on the [GitHub page](https://github.com/ArnaudBelcour/asp-syntax-highlight).
+
+## Contributors
+
+* [Arnaud Belcour](https://github.com/ArnaudBelcour)
+* [Nikolas Bertrand](https://github.com/ni-be)
+* [Nick Walker](https://github.com/nickswalker)

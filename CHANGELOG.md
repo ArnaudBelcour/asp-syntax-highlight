@@ -1,6 +1,6 @@
 ## Version 0.0.6: 02 January 2025
 - Fix issues with unescaped characters.
-- Add file CONTRIBUTORS.md.
+- Add contributors in readme.
 
 ## Version 0.0.5: 11 March 2020
 - Add support for clingcon and clingoLP features.
