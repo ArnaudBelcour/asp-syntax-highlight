@@ -2,7 +2,7 @@
 	"name": "asp-syntax-highlight",
 	"displayName": "Answer Set Programming syntax highlighter",
 	"description": "Syntax highlighting for Answer Set Programming",
-	"version": "0.0.5",
+	"version": "0.0.6",
 	"publisher": "abelcour",
 	"engines": {
 		"vscode": "^1.18.0"
@@ -14,7 +14,7 @@
 	},
 	"icon": "images/icon.png",
 	"categories": [
-		"Languages"
+		"Programming Languages"
 	],
 	"contributes": {
 		"languages": [

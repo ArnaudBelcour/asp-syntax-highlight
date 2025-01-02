@@ -1,3 +1,7 @@
+## Version 0.0.6: 02 January 2025
+- Fix issues with unescaped characters.
+- Add file CONTRIBUTORS.md.
+
 ## Version 0.0.5: 11 March 2020
 - Add support for clingcon and clingoLP features.
 - Add support for asprilo.

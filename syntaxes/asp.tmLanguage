@@ -67,7 +67,7 @@
             <key>name</key>
             <string>support.constant.cut.asp</string>
             <key>match</key>
-            <string>>></string>
+            <string>&gt;&gt;</string>
           </dict>
           <dict>
             <key>name</key>
@@ -217,9 +217,9 @@
             <key>name</key>
             <string>string.asp</string>
             <key>begin</key>
-            <string>"</string>
+            <string>&quot;</string>
             <key>end</key>
-            <string>"</string>
+            <string>&quot;</string>
           </dict>
           <dict>
             <key>name</key>
